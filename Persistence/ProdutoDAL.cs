@@ -2,7 +2,6 @@
 using Microsoft.Data.SqlClient;
 using Dapper;
 using System.Data;
-using System.ComponentModel.DataAnnotations;
 public struct Item
 {
     public string Codigo { get; set; }

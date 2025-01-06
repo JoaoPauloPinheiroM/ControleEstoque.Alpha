@@ -1,7 +1,6 @@
 ﻿using Microsoft.Data.SqlClient;
 using Model;
 using Persistence;
-using System.Reflection;
 namespace Control
 {
     public class Servico
@@ -11,7 +10,6 @@ namespace Control
         {
             produtoDall = new ProdutoDAL(connection);
         }
-
         public void Entrada ( Produto produto )
         {
             produtoDall.DarEntrada(produto);
@@ -52,7 +50,6 @@ namespace Control
         {
             produtoDall.RemoverCadastro(codigo);
         }
-
         public List<Item> ObterCadastros ()
         {
            return produtoDall.ObterCadastros();
