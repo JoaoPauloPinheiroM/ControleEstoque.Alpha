@@ -104,6 +104,9 @@ namespace Persistence
             );
         }
 
+
+
+
         public List<Produto> Consultar ( string? codigo = null , string? descricao = null , string? posicao = null )
         {
             try

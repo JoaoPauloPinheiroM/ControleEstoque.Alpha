@@ -41,7 +41,7 @@ namespace View
         {
             txt_Codigo_Cadastros.Text = "";
             txt_Descricao_Cadastros.Text = "";
-
+            
         }
 
         private void AtualizarGrid ()
@@ -55,8 +55,8 @@ namespace View
             {
 
 
-                dgv_Cadastros.DataSource = servico.ObterCadastros();
-            }
+            dgv_Cadastros.DataSource = servico.ObterCadastros();
+        }
             else
             {
                 var produtosFiltrados = servico.FiltrarCadastros(codigo , descricao);
