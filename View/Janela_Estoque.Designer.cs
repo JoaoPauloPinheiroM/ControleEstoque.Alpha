@@ -76,19 +76,21 @@ namespace View
             dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
             dgv_Estoque.DefaultCellStyle = dataGridViewCellStyle2;
-            dgv_Estoque.Location = new Point(12 , 63);
+            dgv_Estoque.Location = new Point(10 , 47);
+            dgv_Estoque.Margin = new Padding(3 , 2 , 3 , 2);
             dgv_Estoque.Name = "dgv_Estoque";
             dgv_Estoque.ReadOnly = true;
             dgv_Estoque.RowHeadersWidth = 51;
             dgv_Estoque.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgv_Estoque.Size = new Size(900 , 445);
+            dgv_Estoque.Size = new Size(788 , 334);
             dgv_Estoque.TabIndex = 5;
             // 
             // btt_Cadastrar
             // 
-            btt_Cadastrar.Location = new Point(715 , 514);
+            btt_Cadastrar.Location = new Point(626 , 386);
+            btt_Cadastrar.Margin = new Padding(3 , 2 , 3 , 2);
             btt_Cadastrar.Name = "btt_Cadastrar";
-            btt_Cadastrar.Size = new Size(94 , 29);
+            btt_Cadastrar.Size = new Size(82 , 22);
             btt_Cadastrar.TabIndex = 1;
             btt_Cadastrar.Text = "Cadastrar";
             btt_Cadastrar.UseVisualStyleBackColor = true;
@@ -96,9 +98,10 @@ namespace View
             // 
             // btt_Cadastros
             // 
-            btt_Cadastros.Location = new Point(615 , 514);
+            btt_Cadastros.Location = new Point(538 , 386);
+            btt_Cadastros.Margin = new Padding(3 , 2 , 3 , 2);
             btt_Cadastros.Name = "btt_Cadastros";
-            btt_Cadastros.Size = new Size(94 , 29);
+            btt_Cadastros.Size = new Size(82 , 22);
             btt_Cadastros.TabIndex = 2;
             btt_Cadastros.Text = "Cadatros";
             btt_Cadastros.UseVisualStyleBackColor = true;
@@ -106,9 +109,10 @@ namespace View
             // 
             // btt_Entrada
             // 
-            btt_Entrada.Location = new Point(12 , 514);
+            btt_Entrada.Location = new Point(10 , 386);
+            btt_Entrada.Margin = new Padding(3 , 2 , 3 , 2);
             btt_Entrada.Name = "btt_Entrada";
-            btt_Entrada.Size = new Size(94 , 29);
+            btt_Entrada.Size = new Size(82 , 22);
             btt_Entrada.TabIndex = 3;
             btt_Entrada.Text = "Entrada";
             btt_Entrada.UseVisualStyleBackColor = true;
@@ -116,9 +120,10 @@ namespace View
             // 
             // btt_Saida
             // 
-            btt_Saida.Location = new Point(112 , 514);
+            btt_Saida.Location = new Point(98 , 386);
+            btt_Saida.Margin = new Padding(3 , 2 , 3 , 2);
             btt_Saida.Name = "btt_Saida";
-            btt_Saida.Size = new Size(94 , 29);
+            btt_Saida.Size = new Size(82 , 22);
             btt_Saida.TabIndex = 4;
             btt_Saida.Text = "Saída";
             btt_Saida.UseVisualStyleBackColor = true;
@@ -126,18 +131,20 @@ namespace View
             // 
             // btt_Consultar
             // 
-            btt_Consultar.Location = new Point(254 , 514);
+            btt_Consultar.Location = new Point(222 , 386);
+            btt_Consultar.Margin = new Padding(3 , 2 , 3 , 2);
             btt_Consultar.Name = "btt_Consultar";
-            btt_Consultar.Size = new Size(94 , 29);
+            btt_Consultar.Size = new Size(82 , 22);
             btt_Consultar.TabIndex = 5;
             btt_Consultar.Text = "Consultar";
             btt_Consultar.UseVisualStyleBackColor = true;
             // 
             // btt_Movimentacao
             // 
-            btt_Movimentacao.Location = new Point(354 , 514);
+            btt_Movimentacao.Location = new Point(310 , 386);
+            btt_Movimentacao.Margin = new Padding(3 , 2 , 3 , 2);
             btt_Movimentacao.Name = "btt_Movimentacao";
-            btt_Movimentacao.Size = new Size(122 , 29);
+            btt_Movimentacao.Size = new Size(107 , 22);
             btt_Movimentacao.TabIndex = 6;
             btt_Movimentacao.Text = "Movimentações";
             btt_Movimentacao.UseVisualStyleBackColor = true;
@@ -145,57 +152,62 @@ namespace View
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(12 , 28);
+            label1.Location = new Point(10 , 21);
             label1.Name = "label1";
-            label1.Size = new Size(61 , 20);
+            label1.Size = new Size(49 , 15);
             label1.TabIndex = 7;
             label1.Text = "Código:";
             // 
             // txt_Codigo_Filtro
             // 
-            txt_Codigo_Filtro.Location = new Point(79 , 25);
+            txt_Codigo_Filtro.Location = new Point(69 , 19);
+            txt_Codigo_Filtro.Margin = new Padding(3 , 2 , 3 , 2);
             txt_Codigo_Filtro.Name = "txt_Codigo_Filtro";
-            txt_Codigo_Filtro.Size = new Size(125 , 27);
+            txt_Codigo_Filtro.Size = new Size(110 , 23);
             txt_Codigo_Filtro.TabIndex = 8;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(220 , 28);
+            label2.Location = new Point(192 , 21);
             label2.Name = "label2";
             label2.RightToLeft = RightToLeft.No;
-            label2.Size = new Size(77 , 20);
+            label2.Size = new Size(61 , 15);
             label2.TabIndex = 9;
             label2.Text = "Descrição:";
             // 
             // txt_Descricao_Filtro
             // 
-            txt_Descricao_Filtro.Location = new Point(303 , 25);
+            txt_Descricao_Filtro.Location = new Point(265 , 19);
+            txt_Descricao_Filtro.Margin = new Padding(3 , 2 , 3 , 2);
             txt_Descricao_Filtro.Name = "txt_Descricao_Filtro";
-            txt_Descricao_Filtro.Size = new Size(341 , 27);
+            txt_Descricao_Filtro.Size = new Size(299 , 23);
             txt_Descricao_Filtro.TabIndex = 10;
+            txt_Descricao_Filtro.TextChanged += txt_Descricao_Filtro_TextChanged;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(659 , 28);
+            label3.Location = new Point(577 , 21);
             label3.Name = "label3";
-            label3.Size = new Size(62 , 20);
+            label3.Size = new Size(51 , 15);
             label3.TabIndex = 11;
             label3.Text = "Posição:";
             // 
             // txt_Posicao_Filtro
             // 
-            txt_Posicao_Filtro.Location = new Point(727 , 25);
+            txt_Posicao_Filtro.Location = new Point(636 , 19);
+            txt_Posicao_Filtro.Margin = new Padding(3 , 2 , 3 , 2);
             txt_Posicao_Filtro.Name = "txt_Posicao_Filtro";
-            txt_Posicao_Filtro.Size = new Size(63 , 27);
+            txt_Posicao_Filtro.Size = new Size(56 , 23);
             txt_Posicao_Filtro.TabIndex = 12;
             // 
             // btt_Filtrar
             // 
-            btt_Filtrar.Location = new Point(818 , 28);
+            btt_Filtrar.Location = new Point(716 , 21);
+            btt_Filtrar.Margin = new Padding(3 , 2 , 3 , 2);
             btt_Filtrar.Name = "btt_Filtrar";
-            btt_Filtrar.Size = new Size(94 , 29);
+            btt_Filtrar.Size = new Size(82 , 22);
             btt_Filtrar.TabIndex = 13;
             btt_Filtrar.Text = "Filtrar";
             btt_Filtrar.UseVisualStyleBackColor = true;
@@ -203,10 +215,10 @@ namespace View
             // 
             // Janela_Estoque
             // 
-            AutoScaleDimensions = new SizeF(8F , 20F);
+            AutoScaleDimensions = new SizeF(7F , 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonFace;
-            ClientSize = new Size(922 , 553);
+            ClientSize = new Size(807 , 415);
             Controls.Add(btt_Filtrar);
             Controls.Add(txt_Posicao_Filtro);
             Controls.Add(label3);
@@ -222,6 +234,7 @@ namespace View
             Controls.Add(btt_Cadastrar);
             Controls.Add(dgv_Estoque);
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            Margin = new Padding(3 , 2 , 3 , 2);
             MaximizeBox = false;
             Name = "Janela_Estoque";
             Text = "Controle de estoque";

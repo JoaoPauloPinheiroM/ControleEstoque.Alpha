@@ -135,7 +135,7 @@ namespace View
         private Janela_Cadastrados janela_Cadastrados;
         private void btt_Cadastros_Click ( object sender , EventArgs e )
         {
-            if(janela_Cadastrados == null || janela_Cadastrados.IsDisposed)
+            if (janela_Cadastrados == null || janela_Cadastrados.IsDisposed)
             {
                 janela_Cadastrados = new Janela_Cadastrados();
                 janela_Cadastrados.Show();
@@ -144,6 +144,11 @@ namespace View
             {
                 janela_Cadastrados.Focus();
             }
+        }
+
+        private void txt_Descricao_Filtro_TextChanged ( object sender , EventArgs e )
+        {
+            AtualizarGrid();
         }
     }
 }
